@@ -1,34 +1,17 @@
+.product{
+    width: 100%;
+    min-width: 400px;
+    max-width: 700px;
+    background-color: #eee;
+}
 .flex-parent{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    justify-content: center;
-    align-items: stretch;
-    flex-wrap: wrap;
-
-    min-height: 500px;
-    max-height: 600px;
-    background-color: aqua;
-    font-size: 24px;
+    align-items: center;
+    padding: 0 20px;
 }
-.flex-child{
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    padding: 20px;
-    margin: 0.5%;
-    background-color: pink;
-}
-.flex{
-    flex: 1 1 50%;
-}
-.order-1{
-    order: -1;
-
-}
-.order2{
-    order: 2;
-}
-.margin-right{
-    margin-right: auto;
+.back{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 0;
 }
