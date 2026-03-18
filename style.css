@@ -1,10 +1,12 @@
 .product{
     width: 100%;
     min-width: 400px;
-    max-width: 700px;
+    max-width: 1000px;
+    margin: auto;
     background-color: #eee;
     color: #444;
     font-family: sans-serif;
+    
 }
 .product a{
     color: inherit;
@@ -13,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0 20px; */
+    padding: 0 20px;
     border-bottom: 2px solid #ccc;
 }
 .back{
@@ -22,8 +24,9 @@
     padding: 20px 0;
 }
 .product-img{
-    flex: 0 0 40%;
+    flex: 0 1 40%;
     border-right: 2px solid #ccc;
+    max-width: 300px;
 }
 .product-info{
     padding: 20px;
@@ -31,6 +34,7 @@
 }
 .border-none{
     border-bottom: none;
+    padding: 0;
 }
 .product-info>h2,
 .product-info>h3{
